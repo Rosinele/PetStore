@@ -1,0 +1,18 @@
+{
+  "id": 0,
+  "category": {
+    "id": 1,
+    "name": "cat"
+  },
+  "name": "isaac",
+  "photoUrls": [
+    "https://static1.patasdacasa.com.br/articles/1/35/1/@/1093-gatos-pretos-sao-animais-fascinantes-co-opengraph_1200-4.jpg"
+  ],
+  "tags": [
+    {
+      "id": 2021,
+      "name": "fofi"
+    }
+  ],
+  "status": "available"
+}
