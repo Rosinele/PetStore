@@ -9,6 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.is;
 
 // 3 - Classes
 public class Pet {
@@ -38,6 +39,8 @@ public class Pet {
         .then()
                 .log().all() //refere-se a volta
                 .statusCode(200) //verificar se foi e voltou
+                .body("name", is("hector"))
+                .body("status", is("available") )
         ;
 
 
